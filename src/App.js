@@ -21,15 +21,7 @@ const filterByStatus = (todos = [], status = '', id = '') => {
 }
 class App extends PureComponent {
   state = {
-    todosList: [{
-      id: 1,
-      text: 'Lê Khải Hoàn',
-      isCompleted: true
-    },{
-      id: 2,
-      text: 'Trương Thị Chuyên',
-      isCompleted: false
-    }],
+    todosList: [],
     todoEditingId: '',
     isCheckedAll: false,
     status: 'All'

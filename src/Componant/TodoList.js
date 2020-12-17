@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 import Todo from './Todo'
 const TodoList = memo(props => {
-    const { todosList,  isCheckedAll,checkAllTodos } = props
+    const { todosList,  isCheckedAll, checkAllTodos } = props
     return (
         <section className="main">
             <input 
